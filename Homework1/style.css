@@ -1,42 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: "Adobe Heiti Std R", Arial, sans-serif;
     background-color: rgba(26, 238, 13, 0.37);
 }
-.head{
+
+.head {
+    /*Style for all headers*/
     text-align: center;
     padding: 10px;
-}
-h1 {
     color: #2b4124;
 }
-h2  {
-    color: #2b4124;
-}
-h3  {
-    color: #2b4124;
-}
-h4  {
-    color: #2b4124;
-}
-h5  {
-    color: #2b4124;
-}
-h6 {
-    color: #2b4124;
-}
+
 hr {
     height: 1px;
-    color: #000500;
     background-color: #000500;
     border: none;
 }
+
 .symbol {
+    /*Style for task with entities*/
     text-align: center;
 }
+
 span {
     font-weight: bold;
 }

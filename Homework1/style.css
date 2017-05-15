@@ -8,9 +8,13 @@ body {
     background-color: rgba(26, 238, 13, 0.37);
 }
 
+.head, .symbol {
+    /*Style for all headers + Style for task with entities*/
+    text-align: center;
+}
+
 .head {
     /*Style for all headers*/
-    text-align: center;
     padding: 10px;
     color: #2b4124;
 }
@@ -19,11 +23,6 @@ hr {
     height: 1px;
     background-color: #000500;
     border: none;
-}
-
-.symbol {
-    /*Style for task with entities*/
-    text-align: center;
 }
 
 span {
